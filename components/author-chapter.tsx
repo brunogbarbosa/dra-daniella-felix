@@ -6,8 +6,6 @@ import { useEffect, useId, useRef } from 'react';
 import { site } from '@/data/site';
 import styles from './author-chapter.module.css';
 
-const biography = 'Acredito em uma estética que respeita histórias, valoriza detalhes e revela o que há de mais autêntico em cada pessoa. Meu trabalho vai além de procedimentos — é sobre escuta, confiança e escolhas que fazem sentido para você.';
-
 function BrandSeal({ id }: { id: string }) {
   const pathId = `${id}-author-seal`;
 
@@ -16,9 +14,9 @@ function BrandSeal({ id }: { id: string }) {
       <path id={pathId} d="M 15,60 a 45,45 0 1,1 90,0 a 45,45 0 1,1 -90,0" />
     </defs>
     <text className={styles.sealText} textLength="280" lengthAdjust="spacing">
-      <textPath href={`#${pathId}`} startOffset="1%">ESTÉTICA AVANÇADA · DANIELLA FÉLIX · </textPath>
+      <textPath href={`#${pathId}`} startOffset="1%">REJUVENESCIMENTO · INGRID ALFANO · </textPath>
     </text>
-    <text className={styles.sealMark} x="60" y="70" textAnchor="middle">df.</text>
+    <text className={styles.sealMark} x="60" y="70" textAnchor="middle">ia.</text>
     <circle cx="8" cy="60" r="1.6" />
     <circle cx="112" cy="60" r="1.6" />
   </svg>;
@@ -85,16 +83,16 @@ export function AuthorChapter() {
 
       <figure className={styles.photo} data-author-motion="photo">
         <Image
-          src={site.images.about}
-          alt="Retrato profissional da Dra. Daniella Félix"
+          src={site.images.author}
+          alt="Retrato profissional da Dra. Ingrid Alfano"
           fill
           sizes="(max-width: 700px) 51vw, (max-width: 1100px) 56vw, 54vw"
         />
       </figure>
 
       <article className={styles.card} data-author-motion="card">
-        <p className={styles.cardLabel}>DRA. DANIELLA FÉLIX</p>
-        <p className={styles.cardCopy}>{biography}</p>
+        <p className={styles.cardLabel}>DRA. INGRID ALFANO</p>
+        <p className={styles.cardCopy}>{site.bio}</p>
         <a className={styles.cta} href={site.instagram} target="_blank" rel="noreferrer">
           <span>Conheça minha história</span>
           <span className={styles.ctaCircle} aria-hidden="true"><ArrowUpRight size={24} strokeWidth={1.25} /></span>
@@ -110,9 +108,9 @@ export function AuthorChapter() {
       <svg className={`${styles.thread} ${styles.threadDesktop}`} viewBox="0 0 1600 110" preserveAspectRatio="none" aria-hidden="true" focusable="false">
         <defs>
           <radialGradient id={`${uid}-author-pearl`} cx="30%" cy="25%">
-            <stop stopColor="#f8eeee" />
-            <stop offset=".5" stopColor="#bc8d96" />
-            <stop offset="1" stopColor="#775059" />
+            <stop stopColor="#faefec" />
+            <stop offset=".5" stopColor="#a74a5b" />
+            <stop offset="1" stopColor="#5b1f2d" />
           </radialGradient>
         </defs>
         <path d="M -30 30 C 260 84 540 91 800 58 C 1065 25 1320 91 1630 27" pathLength="1" vectorEffect="non-scaling-stroke" data-author-motion="line" />
@@ -122,9 +120,9 @@ export function AuthorChapter() {
       <svg className={`${styles.thread} ${styles.threadMobile}`} viewBox="0 0 430 546" preserveAspectRatio="none" aria-hidden="true" focusable="false">
         <defs>
           <radialGradient id={`${uid}-author-pearl-mobile`} cx="30%" cy="25%">
-            <stop stopColor="#f8eeee" />
-            <stop offset=".5" stopColor="#bc8d96" />
-            <stop offset="1" stopColor="#775059" />
+            <stop stopColor="#faefec" />
+            <stop offset=".5" stopColor="#a74a5b" />
+            <stop offset="1" stopColor="#5b1f2d" />
           </radialGradient>
         </defs>
         <path d="M -20 475 C 55 498 90 529 150 538 C 236 551 335 543 450 518" pathLength="1" vectorEffect="non-scaling-stroke" data-author-motion="line" />
@@ -135,7 +133,7 @@ export function AuthorChapter() {
     <footer className={styles.closing}>
       <p className={styles.closingEyebrow} data-author-motion="final"><span />NOSSA FILOSOFIA DE CUIDADO<span /></p>
       <div className={styles.closingRow}>
-        <div className={styles.closingMonogram} aria-hidden="true"><strong>df.</strong><span /></div>
+        <div className={styles.closingMonogram} aria-hidden="true"><strong>ia.</strong><span /></div>
         <p className={styles.closingStatement}>
           <span data-author-motion="final">Precisão em cada escolha.</span>
           <em data-author-motion="final">Cuidado em cada encontro.</em>

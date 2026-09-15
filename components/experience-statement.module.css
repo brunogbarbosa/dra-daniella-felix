@@ -1,14 +1,14 @@
 .root {
-  --experience-paper: #fbf8f2;
-  --experience-ink: #211b17;
-  --experience-gold: #9b744d;
+  --experience-paper: #fbf7f1;
+  --experience-ink: #2a1d21;
+  --experience-gold: #8e3b4c;
   position: relative;
   isolation: isolate;
   height: clamp(760px, 56.25vw, 1080px);
   overflow: hidden;
   background:
     radial-gradient(circle at 78% 18%, rgb(255 255 255 / .78), transparent 28%),
-    linear-gradient(135deg, #fcfaf7 0%, #f1e7d8 100%);
+    linear-gradient(135deg, #fcfaf7 0%, #f2e4e3 100%);
   color: var(--experience-ink);
 }
 
@@ -67,7 +67,7 @@
 
 .titleMask em {
   padding-right: .08em;
-  color: #8f6a43;
+  color: #8e3b4c;
   font-size: 1.06em;
 }
 
@@ -87,8 +87,8 @@
   height: 82%;
   overflow: hidden;
   border-radius: clamp(23px, 1.9vw, 37px);
-  background: #dfd0bb;
-  box-shadow: 0 30px 80px rgb(83 59 31 / .12);
+  background: #d9c1bf;
+  box-shadow: 0 30px 80px rgb(78 32 44 / .14);
 }
 
 .photo img {
@@ -102,9 +102,9 @@
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(rgb(178 139 87 / .08), rgb(178 139 87 / .08)),
-    linear-gradient(0deg, rgb(120 86 47 / .26) 0%, transparent 28%),
-    linear-gradient(90deg, rgb(207 179 132 / .18), transparent 30%);
+    linear-gradient(rgb(167 74 91 / .08), rgb(167 74 91 / .08)),
+    linear-gradient(0deg, rgb(91 31 45 / .26) 0%, transparent 28%),
+    linear-gradient(90deg, rgb(214 179 183 / .2), transparent 30%);
 }
 
 .photoArc {
@@ -129,7 +129,7 @@
   z-index: 3;
   top: 11.5%;
   right: 7.2%;
-  color: #5d4427;
+  color: #5b1f2d;
   font-family: var(--serif);
   font-size: clamp(16px, 1.3vw, 25px);
   font-style: italic;
@@ -184,7 +184,7 @@
 .quoteMark {
   align-self: stretch;
   border-right: 1px solid color-mix(in srgb, var(--experience-gold) 58%, transparent);
-  color: #9b744d;
+  color: #8e3b4c;
   font-family: Georgia, serif;
   font-size: clamp(64px, 5.5vw, 106px);
   font-weight: 700;
@@ -240,8 +240,8 @@
   overflow: hidden;
   border: 1px solid transparent;
   border-radius: 999px;
-  background: linear-gradient(110deg, #5d4427, #8b6840 55%, #3b2a1a);
-  box-shadow: 0 18px 40px rgb(83 59 31 / .18);
+  background: linear-gradient(110deg, #5b1f2d, #8e3b4c 55%, #32151e);
+  box-shadow: 0 18px 40px rgb(78 32 44 / .2);
   color: #fffaf8;
   font-size: clamp(11px, .92vw, 18px);
   line-height: 1;
@@ -278,7 +278,7 @@
 
 .thread path {
   fill: none;
-  stroke: color-mix(in srgb, var(--experience-gold) 44%, transparent);
+  stroke: color-mix(in srgb, var(--experience-gold) 48%, transparent);
   stroke-width: 1.15;
   stroke-dasharray: 1;
   stroke-dashoffset: 0;
@@ -287,7 +287,7 @@
 @media (hover: hover) {
   .cta:hover {
     transform: translateY(-3px);
-    box-shadow: 0 22px 48px rgb(83 59 31 / .24);
+    box-shadow: 0 22px 48px rgb(78 32 44 / .26);
   }
 
   .cta:hover::before {
@@ -431,7 +431,7 @@
     overflow: hidden;
     background:
       radial-gradient(circle at 88% 34%, rgb(255 255 255 / .72), transparent 32%),
-      linear-gradient(160deg, #fcfaf7, #f1e7d8);
+      linear-gradient(160deg, #fcfaf7, #f2e4e3);
   }
 
   .topline,
@@ -481,7 +481,7 @@
     height: auto;
     margin: clamp(20px, 5.4vw, 24px) auto 0;
     border-radius: clamp(22px, 6vw, 27px);
-    box-shadow: 0 20px 52px rgb(83 59 31 / .14);
+    box-shadow: 0 20px 52px rgb(78 32 44 / .16);
   }
 
   .photo img {

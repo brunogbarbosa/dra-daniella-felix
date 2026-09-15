@@ -69,17 +69,17 @@ export function EssenceChapter() {
     <div className="essence-stage">
       <div className="essence-wash" aria-hidden="true"/>
       <svg className="essence-thread essence-thread-desktop" viewBox="0 0 1440 740" fill="none" aria-hidden="true">
-        <defs><radialGradient id={`${uid}-pearl`} cx="30%" cy="25%"><stop stopColor="#f8eeee"/><stop offset=".5" stopColor="#bc8d96"/><stop offset="1" stopColor="#775059"/></radialGradient></defs>
+        <defs><radialGradient id={`${uid}-pearl`} cx="30%" cy="25%"><stop stopColor="#faefec"/><stop offset=".5" stopColor="#a74a5b"/><stop offset="1" stopColor="#5b1f2d"/></radialGradient></defs>
         <path d="M280 790 C720 810 660 530 855 350 S1180 255 1490 360" pathLength="1" data-essence-motion="line"/>
         <circle cx="753" cy="474" r="10" fill={`url(#${uid}-pearl)`} data-essence-motion="bead" data-delay="600"/>
       </svg>
       <svg className="essence-thread essence-thread-mobile" viewBox="0 0 400 900" fill="none" aria-hidden="true">
-        <defs><radialGradient id={`${uid}-pearl-mobile`} cx="30%" cy="25%"><stop stopColor="#f8eeee"/><stop offset=".5" stopColor="#bc8d96"/><stop offset="1" stopColor="#775059"/></radialGradient></defs>
+        <defs><radialGradient id={`${uid}-pearl-mobile`} cx="30%" cy="25%"><stop stopColor="#faefec"/><stop offset=".5" stopColor="#a74a5b"/><stop offset="1" stopColor="#5b1f2d"/></radialGradient></defs>
         <path d="M-30 625 C110 638 170 799 410 793" pathLength="1" data-essence-motion="line"/>
         <circle cx="82" cy="669" r="5.5" fill={`url(#${uid}-pearl-mobile)`} data-essence-motion="bead" data-delay="600"/>
       </svg>
       <figure className="essence-smile" data-essence-motion="photo">
-        <Image src={site.images.about} alt="Retrato editorial da Dra. Daniella Félix" fill sizes="(max-width:700px) 180vw, (max-width:1100px) 82vw, 67vw"/>
+        <Image src={site.images.about} alt="Retrato editorial da Dra. Ingrid Alfano" fill sizes="(max-width:700px) 180vw, (max-width:1100px) 82vw, 67vw"/>
       </figure>
       <div className="essence-editorial-top">
         <p>01 / A ESSÊNCIA</p><span aria-hidden="true"/><p>A BELEZA COMEÇA<br/>NO QUE É SEU.</p>

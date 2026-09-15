@@ -49,15 +49,15 @@ export function CampaignHero() {
         <p className="campaign-subtitle">Contornos que valorizam seus traços.<br/>Resultados que preservam sua essência.</p>
         <div className="campaign-action"><a className="campaign-cta" href={appointmentUrl} target="_blank" rel="noreferrer"><span>AGENDAR AVALIAÇÃO</span><ArrowRight size={22} strokeWidth={1.2}/></a></div>
       </div>
-      <figure className="campaign-portrait">
-        <div className="campaign-silhouette"><Image className="campaign-original" src={site.images.hero} alt="Dra. Daniella Félix" fill loading="eager" sizes="(max-width:700px) 145vw, (max-width:1100px) 77vw, 60vw"/></div>
+        <figure className="campaign-portrait">
+        <div className="campaign-silhouette"><Image className="campaign-original" src={site.images.hero} alt="Dra. Ingrid Alfano" fill loading="eager" sizes="(max-width:700px) 145vw, (max-width:1100px) 77vw, 60vw"/></div>
       </figure>
       <SmileSeal/>
       <p className="campaign-editorial">Beleza<br/>com<br/>identidade<span aria-hidden="true"/></p>
       <div className="campaign-metrics" aria-label="Atendimento em números">
         {metrics.map(metric=><div className="campaign-metric" key={metric.value}><strong>{metric.value}</strong><span>{metric.label}</span></div>)}
       </div>
-      <div className="campaign-signature"><span aria-hidden="true"/><div><p>DRA. DANIELLA FÉLIX</p><em>Estética avançada<br className="campaign-signature-break"/> com naturalidade e intenção.</em></div></div>
+      <div className="campaign-signature"><span aria-hidden="true"/><div><p>DRA. INGRID ALFANO</p><em>Rejuvenescimento<br className="campaign-signature-break"/> com ciência e naturalidade.</em></div></div>
     </div>
   </section>;
 }

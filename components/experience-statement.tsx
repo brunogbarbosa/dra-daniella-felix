@@ -16,7 +16,7 @@ function ImageSeal({ id }: { id: string }) {
     <text className={styles.sealCopy} textLength="282" lengthAdjust="spacing">
       <textPath href={`#${sealPath}`} startOffset="1%">ESTÉTICA · CONTORNO · CONFIANÇA · </textPath>
     </text>
-    <text className={styles.sealMark} x="63" y="74" textAnchor="middle">df.</text>
+    <text className={styles.sealMark} x="63" y="74" textAnchor="middle">ia.</text>
   </svg>;
 }
 
@@ -83,7 +83,7 @@ export function ExperienceStatement() {
     <figure className={styles.photo} data-experience-motion="photo">
       <Image
         src={site.images.beauty}
-        alt="Dra. Daniella Félix em retrato profissional"
+        alt="Dra. Ingrid Alfano em retrato profissional"
         fill
         sizes="(max-width: 700px) 94vw, (max-width: 1100px) 50vw, 45vw"
       />

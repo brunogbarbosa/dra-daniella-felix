@@ -1,4 +1,4 @@
-/* Daniella Félix — warm gold, ivory, ink, and an editorial rhythm. */
+/* Ingrid Alfano — graphite, burgundy, ivory, and an editorial rhythm. */
 .chapter-tag,.eyebrow{font-size:12px;letter-spacing:.13em;line-height:1.6;text-transform:uppercase}
 .header{height:106px;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:0 5%;background:var(--ivory);border-bottom:1px solid var(--line);position:relative;z-index:30}.header.scrolled{position:sticky;top:0;height:84px;background:#fbf8f2ed;backdrop-filter:blur(18px);margin-bottom:22px}
 .wordmark{display:flex;align-items:center;gap:17px;flex-shrink:0}.brand-monogram{font-family:var(--serif);font-style:italic;font-size:60px;letter-spacing:-.09em;line-height:1;color:var(--rose-deep)}.brand-type{font-size:13px;letter-spacing:.14em;line-height:1.4}.brand-type small{display:block;font-size:9px;letter-spacing:.15em;margin-top:7px;color:var(--rose-deep)}

@@ -1,13 +1,13 @@
 .root {
-  --author-paper: #f7f0f1;
-  --author-ink: #35232a;
-  --author-muted: #776b70;
+  --author-paper: #f8f1ec;
+  --author-ink: #2a1d21;
+  --author-muted: #765d66;
   position: relative;
   isolation: isolate;
   overflow: hidden;
   background:
     radial-gradient(circle at 84% 13%, rgb(255 255 255 / .44), transparent 29%),
-    linear-gradient(180deg, #f6eef0 0%, var(--author-paper) 72%, #faf6f4 100%);
+    linear-gradient(180deg, #f1e3e3 0%, var(--author-paper) 72%, #fbf7f1 100%);
   color: var(--author-ink);
 }
 
@@ -101,8 +101,8 @@
   min-width: 0;
   overflow: hidden;
   border-radius: clamp(20px, 1.65vw, 32px);
-  background: #dfd3d3;
-  box-shadow: 0 22px 65px rgb(67 39 48 / .08);
+  background: #d8c2c0;
+  box-shadow: 0 22px 65px rgb(78 32 44 / .12);
 }
 
 .photo img {
@@ -211,8 +211,8 @@
   margin-top: -1px;
   border: 1px solid var(--rose-deep);
   border-radius: 50%;
-  background: radial-gradient(circle at 32% 26%, #f9eeee 0 10%, #bd8d96 42%, #775059 100%);
-  box-shadow: 0 2px 5px rgb(53 35 42 / .2);
+  background: radial-gradient(circle at 32% 26%, #faefec 0 10%, #a74a5b 42%, #5b1f2d 100%);
+  box-shadow: 0 2px 5px rgb(53 25 32 / .22);
 }
 
 .thread {
@@ -533,7 +533,7 @@
   .root {
     background:
       radial-gradient(circle at 86% 9%, rgb(255 255 255 / .52), transparent 26%),
-      linear-gradient(180deg, #f5edef 0%, #f9f3f3 100%);
+      linear-gradient(180deg, #f1e3e3 0%, #fbf7f1 100%);
   }
 
   .topline {

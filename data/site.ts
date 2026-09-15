@@ -3,48 +3,49 @@ export type Procedure = { name: string; description: string; image: string };
 export type Testimonial = { quote: string; name: string };
 
 export const site = {
-  name: 'Daniella Félix',
-  monogram: 'DF',
+  name: 'Ingrid Alfano',
+  monogram: 'IA',
 
-  headline: 'Harmonização facial e corporal para realçar sua melhor versão, sem deixar de ser você.',
+  headline: 'Rejuvenescimento e naturalização de traços para você se reconhecer ainda mais.',
 
   cro: '',
-  bio: 'Sou a Dra. Daniella Félix. Meu trabalho parte de um olhar atento para os seus traços, suas proporções e aquilo que faz você se reconhecer. Cada plano é construído de forma individual, com intenção, equilíbrio e respeito à sua essência.',
-  education: [] as string[],
-  specialties: ['Harmonização facial', 'Contornos corporais', 'Estética avançada'],
+  bio: 'Sou a Dra. Ingrid Alfano, biomédica e professora. Meu trabalho une ciência, escuta e precisão para rejuvenescer e naturalizar traços faciais e corporais, preservando a identidade de cada pessoa.',
+  education: ['Biomédica', 'Professora na UNIME'],
+  specialties: ['Rejuvenescimento facial', 'Naturalização de traços', 'Contornos faciais e corporais'],
 
   phone: '',
   whatsapp: '',
-  whatsappUrl: 'https://contate.me/clinicadaniellafelix',
-  address: 'Catolé do Rocha · Paraíba',
-  professionalPhilosophy: 'Sua melhor versão, sem deixar de ser você.',
+  whatsappUrl: 'https://wa.me/message/KLCPYSF3KG2KP1',
+  address: 'Salvador · Bahia',
+  professionalPhilosophy: 'Rejuvenescimento com naturalidade, sem apagar quem você é.',
 
-  instagram: 'https://www.instagram.com/clinicadaniellafelix/',
-  instagramHandle: '@clinicadaniellafelix',
+  instagram: 'https://www.instagram.com/ingridalfano/',
+  instagramHandle: '@ingridalfano',
 
-  philosophy: ['EQUILÍBRIO', 'ANTES DE', 'EXCESSOS.'],
+  philosophy: ['NATURALIDADE', 'ANTES DE', 'EXCESSOS.'],
 
   colors: {
-    paper: '#fbf8f2',
-    ink: '#211b17',
-    taupe: '#9b744d',
-    champagne: '#dcc7a4',
-    dark: '#171310',
+    paper: '#f8f4ee',
+    ink: '#22191d',
+    taupe: '#7a2e3d',
+    champagne: '#dcc3b1',
+    dark: '#111216',
   },
 
   images: {
-    hero: '/images/daniella-hero.png',
-    about: '/images/daniella-about.png',
-    beauty: '/images/daniella-editorial.png',
+    hero: '/images/ingrid-hero.png',
+    about: '/images/ingrid-about.png',
+    beauty: '/images/ingrid-editorial.png',
+    author: '/images/ingrid-author.jpg',
   },
 
   procedures: [
     { name: 'Harmonização facial', description: 'Planejamento individual para equilibrar proporções e valorizar a identidade do rosto.', image: '' },
-    { name: 'Contorno corporal', description: 'Protocolos personalizados para cuidar dos contornos com intenção e estratégia.', image: '' },
-    { name: 'Lábios', description: 'Definição, proporção e delicadeza para um resultado que converse com seus traços.', image: '' },
-    { name: 'Método HC', description: 'Uma jornada exclusiva da clínica, guiada por avaliação e acompanhamento próximo.', image: '' },
-    { name: 'Renovafit', description: 'Protocolo da clínica pensado para uma abordagem corporal completa e personalizada.', image: '' },
-    { name: 'Depilação a laser', description: 'Tecnologia, conforto e praticidade em um cuidado planejado para você.', image: '' },
+    { name: 'Rejuvenescimento facial', description: 'Protocolos precisos para devolver viço, leveza e aparência descansada.', image: '' },
+    { name: 'Naturalização de traços', description: 'Técnica e sutileza para realçar sua expressão sem padronizar o que faz você única.', image: '' },
+    { name: 'Endolaser e contorno', description: 'Tecnologia e estratégia para cuidar da pele e dos contornos faciais e corporais.', image: '' },
+    { name: 'PDRN e bioestimuladores', description: 'Estímulo inteligente à regeneração e à qualidade da pele, com acompanhamento próximo.', image: '' },
+    { name: 'Método MIA', description: 'Uma jornada autoral de avaliação, planejamento e cuidado guiada pela Dra. Ingrid.', image: '' },
   ] as Procedure[],
 
   office: [] as { src: string; alt: string }[],
@@ -64,12 +65,12 @@ export const site = {
   },
 
   seo: {
-    title: 'Dra. Daniella Félix | Harmonização Facial e Corporal',
-    description: 'Harmonização facial e corporal em Catolé do Rocha, Paraíba. Protocolos personalizados para realçar sua beleza com equilíbrio e naturalidade.',
+    title: 'Dra. Ingrid Alfano | Harmonização Facial em Salvador',
+    description: 'Rejuvenescimento e harmonização facial em Salvador. Protocolos personalizados para naturalizar seus traços com ciência, precisão e cuidado.',
     url: '',
   },
 };
 
 export const appointmentUrl = site.whatsappUrl || (site.whatsapp
-  ? `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Olá, gostaria de agendar uma avaliação com a Dra. Daniella Félix.')}`
+  ? `https://wa.me/${site.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent('Olá, gostaria de agendar uma avaliação com a Dra. Ingrid Alfano.')}`
   : site.instagram);

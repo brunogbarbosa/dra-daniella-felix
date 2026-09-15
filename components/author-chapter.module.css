@@ -107,7 +107,8 @@
 
 .photo img {
   object-fit: cover;
-  object-position: 50% 40%;
+  /* Keep the portrait's head visible when the tall cutout fills the desktop frame. */
+  object-position: 50% 8%;
 }
 
 .card {
@@ -609,7 +610,7 @@
   }
 
   .photo img {
-    object-position: 27% 50%;
+    object-position: 50% 10%;
   }
 
   .card {

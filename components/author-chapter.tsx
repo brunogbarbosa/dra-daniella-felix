@@ -83,7 +83,7 @@ export function AuthorChapter() {
 
       <figure className={styles.photo} data-author-motion="photo">
         <Image
-          src={site.images.author}
+          src={site.images.about}
           alt="Retrato profissional da Dra. Ingrid Alfano"
           fill
           sizes="(max-width: 700px) 51vw, (max-width: 1100px) 56vw, 54vw"

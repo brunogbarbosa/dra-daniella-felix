@@ -25,4 +25,3 @@ As fotografias e os comparativos foram fornecidos para este projeto e permanecem
 ## Experiência
 
 O site possui navegação responsiva, menu acessível, galeria com ampliação e comparação, CTA de agendamento, metadados completos, imagem social dinâmica e favicon exclusivo `df.`. As animações respeitam a preferência de movimento reduzido do sistema.
-

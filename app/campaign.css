@@ -289,7 +289,9 @@
   border:1px solid #b28b5785;
   border-radius:50%;
   transform:rotate(-31deg);
-  pointer-events:none
+  pointer-events:none;
+  /* Keep the chapter transition quiet: the dissolve below replaces this seam. */
+  display:none
 }
 @media(min-width:1800px) and (min-height:1000px){
   .campaign{

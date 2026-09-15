@@ -108,7 +108,7 @@
 .photo img {
   object-fit: cover;
   /* Keep the portrait's head visible when the tall cutout fills the desktop frame. */
-  object-position: 50% 8%;
+  object-position: 50% 0%;
 }
 
 .card {

@@ -106,8 +106,9 @@
 }
 
 .photo img {
-  object-fit: contain;
-  object-position: 50% 100%;
+  object-fit: cover;
+  /* Fill the chapter frame while anchoring the crop at the top of the portrait. */
+  object-position: 50% 0%;
 }
 
 .card {
@@ -609,7 +610,7 @@
   }
 
   .photo img {
-    object-position: 50% 100%;
+    object-position: 50% 0%;
   }
 
   .card {

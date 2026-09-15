@@ -36,7 +36,7 @@ export const site = {
     hero: '/images/ingrid-hero.png',
     about: '/images/ingrid-about.png',
     beauty: '/images/ingrid-editorial.png',
-    author: '/images/ingrid-author.jpg',
+    author: '/images/ingrid-author.png',
   },
 
   procedures: [
@@ -67,7 +67,7 @@ export const site = {
   seo: {
     title: 'Dra. Ingrid Alfano | Harmonização Facial em Salvador',
     description: 'Rejuvenescimento e harmonização facial em Salvador. Protocolos personalizados para naturalizar seus traços com ciência, precisão e cuidado.',
-    url: '',
+    url: 'https://draingridalfano.vercel.app',
   },
 };
 

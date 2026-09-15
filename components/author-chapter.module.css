@@ -101,14 +101,13 @@
   min-width: 0;
   overflow: hidden;
   border-radius: clamp(20px, 1.65vw, 32px);
-  background: #d8c2c0;
+  background: transparent;
   box-shadow: 0 22px 65px rgb(78 32 44 / .12);
 }
 
 .photo img {
-  object-fit: cover;
-  /* Keep the portrait's head visible when the tall cutout fills the desktop frame. */
-  object-position: 50% 0%;
+  object-fit: contain;
+  object-position: 50% 100%;
 }
 
 .card {
@@ -610,7 +609,7 @@
   }
 
   .photo img {
-    object-position: 50% 10%;
+    object-position: 50% 100%;
   }
 
   .card {
